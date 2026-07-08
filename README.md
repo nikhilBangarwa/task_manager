@@ -11,26 +11,25 @@ A Flutter application developed as part of a Flutter Developer Assessment.
 - Mark/Unmark favorite posts
 - Favorites stored using SharedPreferences
 - Pull-to-refresh support
-- Loading and error handling
+- Loading indicator and error handling
 - Responsive UI
 
 ## Tech Stack
 
 - Flutter
 - Provider (State Management)
-- Http
+- HTTP
 - SharedPreferences
 
 ## Flutter Version
 
-Flutter 3.32.5
+- Flutter 3.32.5
 
 ## Packages Used
 
 - provider
 - http
 - shared_preferences
-
 
 ## Project Structure
 
@@ -55,3 +54,7 @@ flutter run
 ## API
 
 https://jsonplaceholder.typicode.com/posts
+
+## Author
+
+Nikhil Bangarwa
