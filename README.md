@@ -18,7 +18,7 @@ A Flutter application developed as part of a Flutter Developer Assessment.
 
 - Flutter
 - Provider (State Management)
-- Dio (or Http)
+- Http
 - SharedPreferences
 
 ## Flutter Version
