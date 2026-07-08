@@ -125,7 +125,7 @@ class PostListItem extends StatelessWidget {
                           maxLines: 2,
                           overflow: TextOverflow.ellipsis,
                           style: TextStyle(
-                            color: Colors.grey[500],
+                            color: Colors.grey[700],
                             fontSize: 12.5,
                             height: 1.45,
                           ),

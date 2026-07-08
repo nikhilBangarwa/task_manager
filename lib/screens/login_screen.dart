@@ -168,14 +168,7 @@ class _LoginScreenState extends State<LoginScreen> {
                                   letterSpacing: 0.3,
                                 ),
                               ),
-                              const SizedBox(height: 6),
-                              Text(
-                                'Organize your day, effortlessly',
-                                style: TextStyle(
-                                  fontSize: 14.5,
-                                  color: Colors.white.withValues(alpha: 0.85),
-                                ),
-                              ),
+
                             ],
                           ),
                         ),
@@ -201,7 +194,7 @@ class _LoginScreenState extends State<LoginScreen> {
                               crossAxisAlignment: CrossAxisAlignment.stretch,
                               children: [
                                 const Text(
-                                  'Welcome back',
+                                  'Welcome',
                                   style: TextStyle(
                                     fontSize: 22,
                                     fontWeight: FontWeight.bold,
@@ -252,31 +245,7 @@ class _LoginScreenState extends State<LoginScreen> {
                                     },
                                   ),
                                 ),
-                                const SizedBox(height: 8),
-
-                                Align(
-                                  alignment: Alignment.centerRight,
-                                  child: TextButton(
-                                    onPressed: () {},
-                                    style: TextButton.styleFrom(
-                                      padding: EdgeInsets.zero,
-                                      minimumSize: const Size(0, 0),
-                                      tapTargetSize:
-                                      MaterialTapTargetSize.shrinkWrap,
-                                    ),
-                                    child: Text(
-                                      'Forgot password?',
-                                      style: TextStyle(
-                                        fontSize: 13,
-                                        color: _primaryColor,
-                                        fontWeight: FontWeight.w600,
-                                      ),
-                                    ),
-                                  ),
-                                ),
-                                const SizedBox(height: 20),
-
-                                // ---- Login button ----
+                               Spacer(),
                                 SizedBox(
                                   height: 52,
                                   child: DecoratedBox(
@@ -323,30 +292,7 @@ class _LoginScreenState extends State<LoginScreen> {
                                     ),
                                   ),
                                 ),
-
-                                const Spacer(),
-
-                                Row(
-                                  mainAxisAlignment: MainAxisAlignment.center,
-                                  children: [
-                                    Text(
-                                      "Don't have an account? ",
-                                      style: TextStyle(
-                                        fontSize: 13.5,
-                                        color: Colors.grey[600],
-                                      ),
-                                    ),
-                                    Text(
-                                      'Sign up',
-                                      style: TextStyle(
-                                        fontSize: 13.5,
-                                        color: _primaryColor,
-                                        fontWeight: FontWeight.w700,
-                                      ),
-                                    ),
-                                  ],
-                                ),
-                                const SizedBox(height: 8),
+                                SizedBox(height: 9,)
                               ],
                             ),
                           ),
